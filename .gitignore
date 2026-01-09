@@ -1,0 +1,123 @@
+# =========================
+# OS / filesystem junk
+# =========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# C / C++ / CUDA
+# =========================
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Static / shared libs
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CUDA-specific
+*.cubin
+*.fatbin
+*.ptx
+*.nvvm
+*.cu.cpp
+*.cu.o
+
+# =========================
+# Build systems
+# =========================
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Meson
+meson-private/
+meson-logs/
+builddir/
+
+# Autotools
+autom4te.cache/
+configure
+config.log
+config.status
+
+# Bazel
+bazel-*
+*.runfiles
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Jupyter / notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Docker
+# =========================
+*.tar
+
+# =========================
+# Project-specific (common)
+# =========================
+build/
+bin/
+lib/
