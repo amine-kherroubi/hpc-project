@@ -49,5 +49,7 @@ df = pd.DataFrame(data, columns=columns)
 
 # Save to CSV
 os.makedirs("data", exist_ok=True)
-df.to_csv(f"data/synthetic_{function_choice.value}_large.csv", index=False, header=None)
-print(f"Dataset 'synthetic_{function_choice.value}.csv' generated successfully.")
+df.to_csv(
+    f"data/synthetic_{function_choice.value}_large.csv", index=False, header=False
+)
+print(f"Dataset 'synthetic_{function_choice.value}_large.csv' generated successfully.")

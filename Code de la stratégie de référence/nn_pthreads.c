@@ -78,7 +78,7 @@ void *mat_mult_thread(void *arg) {
       }
     }
   }
-  // return NULL;
+  return NULL;
 }
 
 // Parallel matrix multiplication using pthreads
