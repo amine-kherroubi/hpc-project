@@ -7,6 +7,7 @@
 ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A complete CUDA research case study on memory management optimizations for a shallow neural network. This repository compares a reference GPU implementation against optimized variants that reduce allocation overhead, improve memory transfer, and use CUDA streams.
 
