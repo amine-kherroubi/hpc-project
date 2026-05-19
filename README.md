@@ -2,6 +2,12 @@
 
 # GPU Memory Management for Shallow Neural Network Training
 
+![CUDA](https://img.shields.io/badge/CUDA-11.8%2B-76B900?style=flat&logo=nvidia&logoColor=white)
+![GPU](https://img.shields.io/badge/GPU-NVIDIA_T4-76B900?style=flat&logo=nvidia&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Linux-FCC624?style=flat&logo=linux&logoColor=black)
+
 A complete CUDA research case study on memory management optimizations for a shallow neural network. This repository compares a reference GPU implementation against optimized variants that reduce allocation overhead, improve memory transfer, and use CUDA streams.
 
 ## 1. What is this project?
